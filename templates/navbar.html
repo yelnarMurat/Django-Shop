@@ -43,9 +43,9 @@
                             <li><a href="#"><span class="icon_heart_alt"></span>
                                 <div class="tip">2</div>
                             </a></li>
-{#                            <li><a href="{% url 'core:order-summary' %}"><span class="icon_bag_alt"></span>#}
-{#                                <div class="tip">{{ request.user|cart_item_count }} </div>#}
-{#                            </a></li>#}
+                            <li><a href="{% url 'core:order-summary' %}"><span class="icon_bag_alt"></span>
+                                <div class="tip">{{ request.user|cart_item_count }} </div>
+                            </a></li>
                         </ul>
                         {% else %}
                         <div class="header__right__auth">
